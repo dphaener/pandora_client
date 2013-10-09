@@ -12,8 +12,8 @@ module Pandora
   #
   class Cryptor
     def initialize(encryption_key, decryption_key)
-      @encryptor = Crypt::Blowfish.new(encryption_key)
-      @decryptor = Crypt::Blowfish.new(decryption_key)
+      @encryptor = Crypt::Blowfish.new(encryption_key.to_s)
+      @decryptor = Crypt::Blowfish.new(decryption_key.to_s)
     end
 
     def encrypt(str)

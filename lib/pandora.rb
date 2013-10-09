@@ -1,4 +1,4 @@
-require 'pandora/version'
+require_relative 'pandora/version'
 
-require 'pandora/partner'
-require 'pandora/user'
+require_relative 'pandora/partner'
+require_relative 'pandora/user'

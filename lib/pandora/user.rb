@@ -1,5 +1,5 @@
-require 'pandora/util/client'
-require 'pandora/station'
+require_relative 'util/client'
+require_relative 'station'
 require 'forwardable'
 
 module Pandora

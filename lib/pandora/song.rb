@@ -1,4 +1,4 @@
-require 'pandora/util/client'
+require_relative 'util/client'
 require 'forwardable'
 require 'nokogiri'
 

@@ -1,4 +1,4 @@
-require 'pandora/util/errors'
+require_relative 'errors'
 require 'faraday'
 require 'json' unless defined?(JSON)
 

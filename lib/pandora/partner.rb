@@ -1,5 +1,5 @@
-require 'pandora/util/client'
-require 'pandora/util/cryptor'
+require_relative 'util/client'
+require_relative 'util/cryptor'
 
 module Pandora
   class Partner

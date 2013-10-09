@@ -1,5 +1,5 @@
-require 'pandora/util/client'
-require 'pandora/song'
+require_relative 'util/client'
+require_relative 'song'
 require 'forwardable'
 
 module Pandora
